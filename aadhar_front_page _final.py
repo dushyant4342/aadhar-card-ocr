@@ -34,7 +34,7 @@ plt.imshow(img)
 #alpha=1.5          #ContrastControl(1.0-3.0)
 #beta= 10        #Brightness control (0-100)
 
-#djusted = cv2.convertScaleAbs(img, alpha=alpha, beta=beta)
+#adjusted = cv2.convertScaleAbs(img, alpha=alpha, beta=beta)
 
 #plt.imshow('original', img)
 #plt.imshow(adjusted)
@@ -261,17 +261,4 @@ print('\t', 'Gender:', '\t', ndata['Gender'])
 print('\t', 'DOB:', '\t', ndata['Date of Birth'])
 
 print('\t', 'Uid:', '\t', ndata['Uid'])
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
